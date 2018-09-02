@@ -1,0 +1,35 @@
+a{
+	margin: 10px;
+	padding: 5px;
+	background-color: red;
+}
+#configContainer{
+	position: absolute;
+	background-color: green;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 5%;
+}
+
+#configOptionsContainer{
+	background-color: yellow;
+	height: 100%;
+	width: 100%l
+}
+
+.configOption{
+	display: inline-block;
+}
+
+.configOption h2{
+	float: left;
+	padding: 5px;
+	margin: 0 15px;
+}
+
+.configOption h3{
+	float: left;
+	margin: 5 15px;
+}
