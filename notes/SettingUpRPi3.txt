@@ -14,9 +14,27 @@ sudo raspi-config
 sudo raspi-config
 B1 Desktop / CLI
 B2 Console Autologin
-1
+
 3) Set up ssh: Note: (Navigate to ssh = 5 Interfacing Options => P2 SSH)
 https://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/
 
 4) Set up kiosk mode:
 https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
+
+----- FINISHED FOR JUST LOADING A WEB PAGE ON PI BOOT-------------------------
+
+5) install nodejs for RPi3: Note: (Section Install Node.js on Raspberry Pi)
+https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+
+6) git GameCentralServer and GameCentralKiosk at the same directory level
+
+7) install nodemon globally 
+sudo npm install nodemon -g
+
+8) install other npm packages
+sudo npm install
+
+---------------------------------------------------------------PIPE
+https://clevertap.com/blog/using-raspberry-pi-to-build-a-commercial-grade-wall-information-dashboard/
+
+screen password: j3%76jrI85Hd2iPOlsm3
